@@ -1,9 +1,11 @@
 # Spotify-Audio-Intelligence-Synthetic-Music-Analytics-ML
 Machine Learning | EDA | Feature Engineering | Clustering | Classification | Regression Dataset: 50,000 synthetic Spotify-style tracks (2000–2024) with 20 genres &amp; 21 audio features
+
 📌 Project Overview
 
 This project performs end-to-end Data Analysis and Machine Learning on a large Spotify-style dataset to understand
 how audio features influence genre, mood, and popularity.
+
 
 The workflow includes:
 
@@ -21,6 +23,7 @@ Mood Clustering using UMAP + KMeans
 
 The goal is to simulate a real-world music analytics pipeline similar to Spotify recommendation systems.
 
+
 📂 Dataset
 
 50,000 tracks
@@ -36,6 +39,7 @@ danceability, energy, loudness, speechiness,
 acousticness, instrumentalness, liveness,
 valence, tempo, duration_ms, popularity,
 genre, year, artist_id, track_id
+
 
 ⚙️ Tech Stack
 
@@ -55,7 +59,9 @@ UMAP
 
 KMeans
 
+
 🔍 Project Pipeline
+
 1️⃣ Data Loading & Cleaning
 
 Removed missing values
@@ -124,6 +130,7 @@ Group songs by mood / sound profile
 
 Visualize audio fingerprint clusters
 
+
 📊 Key Insights
 
 Energy, loudness, and danceability strongly influence popularity
@@ -136,7 +143,9 @@ ML models can predict genre with high accuracy
 
 Popularity prediction works well with tree-based models
 
+
 📈 Results
+
 Task	Model	Result
 Genre Classification	XGBoost	High accuracy
 Popularity Prediction	LightGBM	Good R² score
@@ -160,6 +169,7 @@ Clustering
 Data Visualization
 
 Model Evaluation
+
 
 ⭐ Future Improvements
 
