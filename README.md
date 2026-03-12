@@ -141,13 +141,8 @@ Task	Model	Result
 Genre Classification	XGBoost	High accuracy
 Popularity Prediction	LightGBM	Good R² score
 Mood Clustering	UMAP + KMeans	Clear clusters
-🚀 How to Run
-git clone https://github.com/yourusername/spotify-ml-project
-cd spotify-ml-project
 
-pip install -r requirements.txt
 
-jupyter notebook
 📌 Skills Demonstrated
 
 Data Cleaning
